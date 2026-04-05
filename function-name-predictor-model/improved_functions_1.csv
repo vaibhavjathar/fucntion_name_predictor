@@ -1,0 +1,71 @@
+description,parameters,return_type,library,keywords,function_name
+"Begins recording a Running workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, running, exercise, workout",startRunning
+Ends the current Running session and saves the fitness data.,,,,"finish, end, stop, running, complete, save",stopRunning
+"Begins recording a Walking workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, walking, exercise, workout",startWalking
+Ends the current Walking session and saves the fitness data.,,,,"finish, end, stop, walking, complete, save",stopWalking
+"Begins recording a Yoga workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, yoga, exercise, workout",startYoga
+Ends the current Yoga session and saves the fitness data.,,,,"finish, end, stop, yoga, complete, save",stopYoga
+"Begins recording a Swimming workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, swimming, exercise, workout",startSwimming
+Ends the current Swimming session and saves the fitness data.,,,,"finish, end, stop, swimming, complete, save",stopSwimming
+Enables remote control functionality for â â â¯Music operations.,,,,"enable, switch on, turn off, â â â¯music, remote control",enableMusicControl
+Disables remote control functionality for â â â¯Music operations.,,,,"disable, switch on, turn off, â â â¯music, remote control",disableMusicControl
+Streams real-time data for HeartRate from the connected sensors.,,,,"current, live, monitor, stream, heartrate, real-time",liveHeartRate
+Streams real-time data for Temperature from the connected sensors.,,,,"current, live, monitor, stream, temperature, real-time",liveTemperature
+Monitors real-time heart rate variability to assess recovery and stress levels.,,,,"current, live, monitor, stream, hrv, real-time",liveHrv
+Monitors real-time SpO2 levels or oxygen saturation from the pulse oximeter.,,,,"current, live, monitor, stream, bloodoxygen, real-time",liveBloodOxygen
+Retrieves historical or summary data for the user's heartRate levels.,,,,"get, data, history, report, heartrate, summary",heartRate
+Retrieves historical or summary data for the user's temperature levels.,,,,"get, data, history, report, temperature, summary",temperature
+Retrieves historical or summary data for the user's hrv levels.,,,,"get, data, history, report, hrv, summary",hrv
+Retrieves historical or summary data for the user's bloodOxygen levels.,,,,"get, data, history, report, bloodoxygen, summary",bloodOxygen
+Retrieves historical or summary data for the user's stress levels.,,,,"get, data, history, report, stress, summary",stress
+Retrieves historical or summary data for the user's activity levels.,,,,"get, data, history, report, activity, summary",activity
+Retrieves historical or summary data for the user's sport levels.,,,,"get, data, history, report, sport, summary",sport
+Retrieves historical or summary data for the user's sleep levels.,,,,"get, data, history, report, sleep, summary",sleep
+Enables remote control functionality for ShortVideo operations.,,,,"enable, switch on, turn off, shortvideo, remote control",enableShortVideoControl
+Disables remote control functionality for ShortVideo operations.,,,,"disable, switch on, turn off, shortvideo, remote control",disableShortVideoControl
+Enables remote control functionality for CaptureImage operations.,,,,"enable, switch on, turn off, captureimage, remote control",enableCaptureImageControl
+Disables remote control functionality for CaptureImage operations.,,,,"disable, switch on, turn off, captureimage, remote control",disableCaptureImageControl
+Enables remote control functionality for EbookReading operations.,,,,"enable, switch on, turn off, ebookreading, remote control",enableEbookReadingControl
+Disables remote control functionality for EbookReading operations.,,,,"disable, switch on, turn off, ebookreading, remote control",disableEbookReadingControl
+Enables remote control functionality for Counter operations.,,,,"enable, switch on, turn off, counter, remote control",enableCounterControl
+Disables remote control functionality for Counter operations.,,,,"disable, switch on, turn off, counter, remote control",disableCounterControl
+Starts a treadmill running session to track indoor running metrics.,,,,"track, record, begin, start, treadmill, exercise, workout",startTreadmill
+Ends the current Treadmill session and saves the fitness data.,,,,"finish, end, stop, treadmill, complete, save",stopTreadmill
+"Begins recording a Cycling workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, cycling, exercise, workout",startCycling
+Ends the current Cycling session and saves the fitness data.,,,,"finish, end, stop, cycling, complete, save",stopCycling
+"Begins recording a StrengthTraining workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, strengthtraining, exercise, workout",startStrengthTraining
+Ends the current StrengthTraining session and saves the fitness data.,,,,"finish, end, stop, strengthtraining, complete, save",stopStrengthTraining
+"Begins recording a Climbing workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, climbing, exercise, workout",startClimbing
+Ends the current Climbing session and saves the fitness data.,,,,"finish, end, stop, climbing, complete, save",stopClimbing
+"Begins recording a Skating workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, skating, exercise, workout",startSkating
+Ends the current Skating session and saves the fitness data.,,,,"finish, end, stop, skating, complete, save",stopSkating
+"Begins recording a CrossTraining workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, crosstraining, exercise, workout",startCrossTraining
+Ends the current CrossTraining session and saves the fitness data.,,,,"finish, end, stop, crosstraining, complete, save",stopCrossTraining
+"Begins recording a Hiit workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, hiit, exercise, workout",startHiit
+Ends the current Hiit session and saves the fitness data.,,,,"finish, end, stop, hiit, complete, save",stopHiit
+"Begins recording a Skipping workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, skipping, exercise, workout",startSkipping
+Ends the current Skipping session and saves the fitness data.,,,,"finish, end, stop, skipping, complete, save",stopSkipping
+"Begins recording a Pilates workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, pilates, exercise, workout",startPilates
+Ends the current Pilates session and saves the fitness data.,,,,"finish, end, stop, pilates, complete, save",stopPilates
+"Begins recording a Dance workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, dance, exercise, workout",startDance
+Ends the current Dance session and saves the fitness data.,,,,"finish, end, stop, dance, complete, save",stopDance
+"Begins recording a Aerobics workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, aerobics, exercise, workout",startAerobics
+Ends the current Aerobics session and saves the fitness data.,,,,"finish, end, stop, aerobics, complete, save",stopAerobics
+"Begins recording a Volleyball workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, volleyball, exercise, workout",startVolleyball
+Ends the current Volleyball session and saves the fitness data.,,,,"finish, end, stop, volleyball, complete, save",stopVolleyball
+"Begins recording a Tennis workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, tennis, exercise, workout",startTennis
+Ends the current Tennis session and saves the fitness data.,,,,"finish, end, stop, tennis, complete, save",stopTennis
+"Begins recording a Basketball workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, basketball, exercise, workout",startBasketball
+Ends the current Basketball session and saves the fitness data.,,,,"finish, end, stop, basketball, complete, save",stopBasketball
+"Begins recording a Boxing workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, boxing, exercise, workout",startBoxing
+Ends the current Boxing session and saves the fitness data.,,,,"finish, end, stop, boxing, complete, save",stopBoxing
+"Begins recording a Hockey workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, hockey, exercise, workout",startHockey
+Ends the current Hockey session and saves the fitness data.,,,,"finish, end, stop, hockey, complete, save",stopHockey
+"Begins recording a Squash workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, squash, exercise, workout",startSquash
+Ends the current Squash session and saves the fitness data.,,,,"finish, end, stop, squash, complete, save",stopSquash
+"Begins recording a Golf workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, golf, exercise, workout",startGolf
+Ends the current Golf session and saves the fitness data.,,,,"finish, end, stop, golf, complete, save",stopGolf
+"Begins recording a Badminton workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, badminton, exercise, workout",startBadminton
+Ends the current Badminton session and saves the fitness data.,,,,"finish, end, stop, badminton, complete, save",stopBadminton
+"Begins recording a Cricket workout session, tracking metrics like duration and calories.",,,,"track, record, begin, start, cricket, exercise, workout",startCricket
+Ends the current Cricket session and saves the fitness data.,,,,"finish, end, stop, cricket, complete, save",stopCricket

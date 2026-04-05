@@ -1,0 +1,181 @@
+description,parameters,return_type,library,keywords,param_count,function_name
+Adds two integers and returns their sum,"int a, int b",int,MathUtils,"add,sum,arithmetic",2,addNumbers
+Returns the sum of two given integer values,"int a, int b",int,MathUtils,"add,sum,arithmetic",2,addNumbers
+Computes the total of two integers and returns the result,"int a, int b",int,MathUtils,"add,sum,arithmetic",2,addNumbers
+Calculates the factorial of a non-negative integer,int n,long,MathUtils,"factorial,recursive,math",1,calculateFactorial
+Returns the factorial value for a given non-negative number,int n,long,MathUtils,"factorial,recursive,math",1,calculateFactorial
+Computes n factorial for the given integer n,int n,long,MathUtils,"factorial,recursive,math",1,calculateFactorial
+Calculates the square root of a given number,double value,double,MathUtils,"sqrt,root,math",1,calculateSquareRoot
+Returns the square root of the given double value,double value,double,MathUtils,"sqrt,root,math",1,calculateSquareRoot
+Computes the mathematical square root of a value,double value,double,MathUtils,"sqrt,root,math",1,calculateSquareRoot
+Returns the maximum of two integer values,"int a, int b",int,MathUtils,"max,maximum,compare",2,findMaximum
+Finds and returns the larger of two given integers,"int a, int b",int,MathUtils,"max,maximum,compare",2,findMaximum
+Compares two integers and returns the maximum one,"int a, int b",int,MathUtils,"max,maximum,compare",2,findMaximum
+Raises base to the given exponent and returns the result,"double base, int exponent",double,MathUtils,"power,exponent,math",2,calculatePower
+Computes base raised to the power of exponent,"double base, int exponent",double,MathUtils,"power,exponent,math",2,calculatePower
+Returns the result of raising a base to an integer exponent,"double base, int exponent",double,MathUtils,"power,exponent,math",2,calculatePower
+Reverses the characters in a given string,String input,String,StringUtils,"reverse,string,characters",1,reverseString
+Returns the input string with its characters in reverse order,String input,String,StringUtils,"reverse,string,characters",1,reverseString
+Flips the character order of a given string value,String input,String,StringUtils,"reverse,string,characters",1,reverseString
+Converts all characters of a string to uppercase,String input,String,StringUtils,"uppercase,convert,string",1,convertToUpperCase
+Returns the input string converted to all uppercase letters,String input,String,StringUtils,"uppercase,convert,string",1,convertToUpperCase
+Transforms every character in the string to its uppercase form,String input,String,StringUtils,"uppercase,convert,string",1,convertToUpperCase
+Checks if a given string is a palindrome,String input,boolean,StringUtils,"palindrome,check,string",1,checkPalindrome
+Returns true if the input string reads the same forwards and backwards,String input,boolean,StringUtils,"palindrome,check,string",1,checkPalindrome
+Determines whether a given string is a palindrome,String input,boolean,StringUtils,"palindrome,check,string",1,checkPalindrome
+Splits a string into an array using the given delimiter,"String input, String delimiter",String[],StringUtils,"split,delimiter,array",2,splitByDelimiter
+Divides the input string into parts based on the specified delimiter,"String input, String delimiter",String[],StringUtils,"split,delimiter,array",2,splitByDelimiter
+Returns an array of substrings by splitting on the given delimiter,"String input, String delimiter",String[],StringUtils,"split,delimiter,array",2,splitByDelimiter
+Removes leading and trailing whitespace from a string,String input,String,StringUtils,"trim,whitespace,string",1,trimWhitespace
+Strips all leading and trailing spaces from the input string,String input,String,StringUtils,"trim,whitespace,string",1,trimWhitespace
+Returns the input string with whitespace removed from both ends,String input,String,StringUtils,"trim,whitespace,string",1,trimWhitespace
+Sends an HTTP GET request to the given URL,String url,HttpResponse,NetworkService,"http,get,request,api",1,sendGetRequest
+Performs an HTTP GET call to the specified URL and returns the response,String url,HttpResponse,NetworkService,"http,get,request,api",1,sendGetRequest
+Makes a GET request to the given URL and returns an HttpResponse,String url,HttpResponse,NetworkService,"http,get,request,api",1,sendGetRequest
+Sends an HTTP POST request with a JSON body,"String url, String body",HttpResponse,NetworkService,"http,post,request,api",2,sendPostRequest
+Performs an HTTP POST call with a body payload to a given URL,"String url, String body",HttpResponse,NetworkService,"http,post,request,api",2,sendPostRequest
+Makes a POST request with the given body to the specified URL,"String url, String body",HttpResponse,NetworkService,"http,post,request,api",2,sendPostRequest
+Downloads a file from the given URL to local storage,"String url, String path",boolean,NetworkService,"download,file,network",2,downloadFile
+Fetches a remote file from a URL and saves it to the specified local path,"String url, String path",boolean,NetworkService,"download,file,network",2,downloadFile
+Retrieves a file from the given URL and stores it at the given path,"String url, String path",boolean,NetworkService,"download,file,network",2,downloadFile
+Checks whether the device has an active internet connection,,boolean,NetworkService,"connection,internet,network",0,checkConnectionStatus
+Returns true if the device is currently connected to the internet,,boolean,NetworkService,"connection,internet,network",0,checkConnectionStatus
+Determines if an active network connection is available on the device,,boolean,NetworkService,"connection,internet,network",0,checkConnectionStatus
+Retrieves the HTTP status code from a response,HttpResponse response,int,NetworkService,"status,code,response",1,getResponseStatusCode
+Returns the integer HTTP status code from an HttpResponse object,HttpResponse response,int,NetworkService,"status,code,response",1,getResponseStatusCode
+Extracts the status code from the given HTTP response,HttpResponse response,int,NetworkService,"status,code,response",1,getResponseStatusCode
+Generates a JWT token for a given user ID,String userId,String,AuthService,"jwt,token,generate,auth",1,generateJwtToken
+Creates and returns a signed JWT authentication token for the user,String userId,String,AuthService,"jwt,token,generate,auth",1,generateJwtToken
+Produces a new JWT token string for the specified user ID,String userId,String,AuthService,"jwt,token,generate,auth",1,generateJwtToken
+Hashes a plain text password using bcrypt,String password,String,AuthService,"hash,password,bcrypt,security",1,hashPassword
+Takes a plain password and returns its bcrypt hash,String password,String,AuthService,"hash,password,bcrypt,security",1,hashPassword
+Encrypts a password string using the bcrypt hashing algorithm,String password,String,AuthService,"hash,password,bcrypt,security",1,hashPassword
+Verifies a plain text password against its stored hash,"String password, String hash",boolean,AuthService,"verify,password,hash,auth",2,verifyPassword
+Checks whether the given password matches the stored bcrypt hash,"String password, String hash",boolean,AuthService,"verify,password,hash,auth",2,verifyPassword
+Returns true if the plain password matches the provided hash,"String password, String hash",boolean,AuthService,"verify,password,hash,auth",2,verifyPassword
+Generates a one-time password for two-factor authentication,String userId,String,AuthService,"otp,generate,twofactor,auth",1,generateOtpCode
+Creates a new OTP code for the given user for 2FA verification,String userId,String,AuthService,"otp,generate,twofactor,auth",1,generateOtpCode
+Produces a one-time numeric password for two-factor authentication,String userId,String,AuthService,"otp,generate,twofactor,auth",1,generateOtpCode
+Creates a new user session and returns the session ID,String userId,String,AuthService,"session,create,user,auth",1,createUserSession
+Initializes a new session for the specified user and returns its ID,String userId,String,AuthService,"session,create,user,auth",1,createUserSession
+Starts a new authenticated session for a user and returns the session identifier,String userId,String,AuthService,"session,create,user,auth",1,createUserSession
+Reads and returns the full contents of a file,String filePath,String,FileManager,"read,file,contents",1,readFileContents
+Opens a file at the given path and returns its complete text content,String filePath,String,FileManager,"read,file,contents",1,readFileContents
+Returns the entire content of the file located at the given path,String filePath,String,FileManager,"read,file,contents",1,readFileContents
+Writes given content to a file at the specified path,"String filePath, String content",boolean,FileManager,"write,file,contents",2,writeFileContents
+Saves the provided string content to a file at the specified path,"String filePath, String content",boolean,FileManager,"write,file,contents",2,writeFileContents
+Creates or overwrites a file with the given content at the given path,"String filePath, String content",boolean,FileManager,"write,file,contents",2,writeFileContents
+Deletes the file at the specified path,String filePath,boolean,FileManager,"delete,file,remove",1,deleteFile
+Removes the file located at the given file path,String filePath,boolean,FileManager,"delete,file,remove",1,deleteFile
+Permanently deletes the file found at the specified path,String filePath,boolean,FileManager,"delete,file,remove",1,deleteFile
+Checks whether a file exists at the given path,String filePath,boolean,FileManager,"check,file,exists",1,checkFileExists
+Returns true if a file is present at the specified file path,String filePath,boolean,FileManager,"check,file,exists",1,checkFileExists
+Determines whether a file exists at the provided path,String filePath,boolean,FileManager,"check,file,exists",1,checkFileExists
+Copies a file from source path to destination path,"String source, String destination",boolean,FileManager,"copy,file,duplicate",2,copyFile
+Duplicates a file from the source location to the destination path,"String source, String destination",boolean,FileManager,"copy,file,duplicate",2,copyFile
+Creates a copy of the file at source and places it at destination,"String source, String destination",boolean,FileManager,"copy,file,duplicate",2,copyFile
+Inserts a new record into the specified database table,"String table, Map data",boolean,DatabaseHelper,"insert,record,database",2,insertRecord
+Adds a new data entry to the given database table,"String table, Map data",boolean,DatabaseHelper,"insert,record,database",2,insertRecord
+Creates a new row with the given data in the specified table,"String table, Map data",boolean,DatabaseHelper,"insert,record,database",2,insertRecord
+Retrieves a record from the database by its ID,"String table, int id",Map,DatabaseHelper,"select,record,query",2,selectRecord
+Fetches a single database record using the given table and ID,"String table, int id",Map,DatabaseHelper,"select,record,query",2,selectRecord
+Returns the database row matching the given ID from the specified table,"String table, int id",Map,DatabaseHelper,"select,record,query",2,selectRecord
+Updates an existing record in the database by ID,"String table, int id, Map data",boolean,DatabaseHelper,"update,record,database",3,updateRecord
+Modifies the data of a database record identified by the given ID,"String table, int id, Map data",boolean,DatabaseHelper,"update,record,database",3,updateRecord
+Changes the fields of an existing database row using the given ID,"String table, int id, Map data",boolean,DatabaseHelper,"update,record,database",3,updateRecord
+Executes a raw SQL query and returns the results,String query,List,DatabaseHelper,"query,execute,sql",1,executeQuery
+Runs the given SQL statement and returns the resulting dataset,String query,List,DatabaseHelper,"query,execute,sql",1,executeQuery
+Processes a raw SQL query string and returns matching records,String query,List,DatabaseHelper,"query,execute,sql",1,executeQuery
+Returns the total number of records in a table,String table,int,DatabaseHelper,"count,records,table",1,countRecords
+Gets the count of all rows currently stored in the given table,String table,int,DatabaseHelper,"count,records,table",1,countRecords
+Counts and returns the total number of entries in the specified table,String table,int,DatabaseHelper,"count,records,table",1,countRecords
+Encrypts plaintext using the AES encryption algorithm,"String plaintext, String key",String,CryptoUtils,"encrypt,aes,crypto",2,encryptAes
+Returns AES-encrypted ciphertext for the given plain text and key,"String plaintext, String key",String,CryptoUtils,"encrypt,aes,crypto",2,encryptAes
+Applies AES encryption to the input text using the provided secret key,"String plaintext, String key",String,CryptoUtils,"encrypt,aes,crypto",2,encryptAes
+Computes the SHA-256 hash of a given string,String input,String,CryptoUtils,"hash,sha256,crypto",1,hashSha256
+Returns the SHA-256 digest of the given input string,String input,String,CryptoUtils,"hash,sha256,crypto",1,hashSha256
+Generates a SHA-256 cryptographic hash for the given string value,String input,String,CryptoUtils,"hash,sha256,crypto",1,hashSha256
+Encodes a string to Base64 format,String input,String,CryptoUtils,"encode,base64,crypto",1,encodeBase64
+Converts the input string to its Base64 encoded representation,String input,String,CryptoUtils,"encode,base64,crypto",1,encodeBase64
+Returns the Base64 encoding of the given input string,String input,String,CryptoUtils,"encode,base64,crypto",1,encodeBase64
+Generates a cryptographically secure random key,int length,String,CryptoUtils,"random,key,generate,crypto",1,generateRandomKey
+Creates a secure random key string of the specified length,int length,String,CryptoUtils,"random,key,generate,crypto",1,generateRandomKey
+Returns a new cryptographically strong random key,int length,String,CryptoUtils,"random,key,generate,crypto",1,generateRandomKey
+Verifies a digital signature against the original data,"String data, String signature, String publicKey",boolean,CryptoUtils,"verify,signature,crypto",3,verifySignature
+Checks if the given signature is valid for the original data using a public key,"String data, String signature, String publicKey",boolean,CryptoUtils,"verify,signature,crypto",3,verifySignature
+Returns true if the digital signature matches the data and public key,"String data, String signature, String publicKey",boolean,CryptoUtils,"verify,signature,crypto",3,verifySignature
+Stores a key-value pair in the cache with an expiry time,"String key, Object value, int ttl",void,CacheManager,"cache,store,value,ttl",3,cacheValue
+Saves a value in the cache under the given key with a TTL,"String key, Object value, int ttl",void,CacheManager,"cache,store,value,ttl",3,cacheValue
+Puts a key-value entry into the cache with the specified time-to-live,"String key, Object value, int ttl",void,CacheManager,"cache,store,value,ttl",3,cacheValue
+Retrieves a cached value by its key,String key,Object,CacheManager,"cache,retrieve,get",1,getCachedValue
+Returns the value stored in cache for the given key,String key,Object,CacheManager,"cache,retrieve,get",1,getCachedValue
+Looks up and returns the cached entry associated with the given key,String key,Object,CacheManager,"cache,retrieve,get",1,getCachedValue
+Clears all entries from the cache,,void,CacheManager,"cache,clear,flush",0,clearAllCache
+Removes every entry currently stored in the cache,,void,CacheManager,"cache,clear,flush",0,clearAllCache
+Flushes and empties the entire cache store,,void,CacheManager,"cache,clear,flush",0,clearAllCache
+Logs an informational message with a timestamp,String message,void,Logger,"log,info,message",1,logInfo
+Records an info-level log message with the current timestamp,String message,void,Logger,"log,info,message",1,logInfo
+Writes an informational message to the application log,String message,void,Logger,"log,info,message",1,logInfo
+Logs an error message along with the exception details,"String message, Exception e",void,Logger,"log,error,exception",2,logError
+Records an error and its associated exception in the log,"String message, Exception e",void,Logger,"log,error,exception",2,logError
+Writes an error-level message and exception details to the log,"String message, Exception e",void,Logger,"log,error,exception",2,logError
+Retrieves log history as a list of log entries,int limit,List,Logger,"log,history,retrieve",1,getLogHistory
+Returns a list of the most recent log records up to the given limit,int limit,List,Logger,"log,history,retrieve",1,getLogHistory
+Fetches the stored log history as a collection of entries,int limit,List,Logger,"log,history,retrieve",1,getLogHistory
+Validates whether the given string is a valid email address,String email,boolean,Validator,"validate,email,format",1,validateEmail
+Returns true if the input matches a valid email address format,String email,boolean,Validator,"validate,email,format",1,validateEmail
+Checks whether the provided string conforms to email address rules,String email,boolean,Validator,"validate,email,format",1,validateEmail
+Validates whether the given string is a valid phone number,String phone,boolean,Validator,"validate,phone,format",1,validatePhoneNumber
+Returns true if the input is a properly formatted phone number,String phone,boolean,Validator,"validate,phone,format",1,validatePhoneNumber
+Checks whether the provided string is a valid phone number,String phone,boolean,Validator,"validate,phone,format",1,validatePhoneNumber
+Validates whether the given string is a valid URL,String url,boolean,Validator,"validate,url,format",1,validateUrl
+Returns true if the input conforms to a valid URL format,String url,boolean,Validator,"validate,url,format",1,validateUrl
+Checks whether the provided string is a well-formed URL,String url,boolean,Validator,"validate,url,format",1,validateUrl
+Checks if the password meets the required strength criteria,String password,boolean,Validator,"validate,password,strength",1,validatePasswordStrength
+Returns true if the password satisfies all strength requirements,String password,boolean,Validator,"validate,password,strength",1,validatePasswordStrength
+Validates that the given password meets the minimum strength rules,String password,boolean,Validator,"validate,password,strength",1,validatePasswordStrength
+Sends an email notification to the given recipient,"String email, String subject, String body",boolean,NotificationService,"email,notification,send",3,sendEmailNotification
+Delivers an email message with subject and body to the specified address,"String email, String subject, String body",boolean,NotificationService,"email,notification,send",3,sendEmailNotification
+Dispatches an email notification to the specified recipient,"String email, String subject, String body",boolean,NotificationService,"email,notification,send",3,sendEmailNotification
+Sends a push notification to a device by its token,"String deviceToken, String message",boolean,NotificationService,"push,notification,send",2,sendPushNotification
+Delivers a push message to a mobile device using its device token,"String deviceToken, String message",boolean,NotificationService,"push,notification,send",2,sendPushNotification
+Dispatches a push notification to the specified device token,"String deviceToken, String message",boolean,NotificationService,"push,notification,send",2,sendPushNotification
+Schedules a notification to be delivered at a given time,"String userId, String message, long timestamp",boolean,NotificationService,"schedule,notification,time",3,scheduleNotification
+Queues a notification for delivery to a user at the specified timestamp,"String userId, String message, long timestamp",boolean,NotificationService,"schedule,notification,time",3,scheduleNotification
+Sets up a notification to be sent to the user at a future timestamp,"String userId, String message, long timestamp",boolean,NotificationService,"schedule,notification,time",3,scheduleNotification
+Returns the current date and time as a Unix timestamp,,long,DateTimeUtils,"timestamp,current,time",0,getCurrentTimestamp
+Gets the current system time as a Unix epoch timestamp,,long,DateTimeUtils,"timestamp,current,time",0,getCurrentTimestamp
+Retrieves the current date and time in Unix timestamp format,,long,DateTimeUtils,"timestamp,current,time",0,getCurrentTimestamp
+Formats a Unix timestamp to a human-readable date string,"long timestamp, String format",String,DateTimeUtils,"format,date,string",2,formatDate
+Converts a Unix timestamp into a formatted date string using the given pattern,"long timestamp, String format",String,DateTimeUtils,"format,date,string",2,formatDate
+Returns a readable date string from a timestamp using the specified format,"long timestamp, String format",String,DateTimeUtils,"format,date,string",2,formatDate
+Calculates the number of days between two date timestamps,"long startDate, long endDate",int,DateTimeUtils,"difference,days,date",2,calculateDateDifference
+Returns the difference in days between two given Unix timestamps,"long startDate, long endDate",int,DateTimeUtils,"difference,days,date",2,calculateDateDifference
+Computes how many days separate two given date timestamps,"long startDate, long endDate",int,DateTimeUtils,"difference,days,date",2,calculateDateDifference
+Converts temperature from Celsius to Fahrenheit,float celsius,float,ConversionUtils,"convert,celsius,fahrenheit,temperature",1,convertCelsiusToFahrenheit
+Returns the Fahrenheit equivalent of the given Celsius temperature,float celsius,float,ConversionUtils,"convert,celsius,fahrenheit,temperature",1,convertCelsiusToFahrenheit
+Transforms a Celsius temperature value to its Fahrenheit equivalent,float celsius,float,ConversionUtils,"convert,celsius,fahrenheit,temperature",1,convertCelsiusToFahrenheit
+Converts distance from kilometers to miles,double km,double,ConversionUtils,"convert,kilometers,miles,distance",1,convertKilometersToMiles
+Returns the mile equivalent of the given distance in kilometers,double km,double,ConversionUtils,"convert,kilometers,miles,distance",1,convertKilometersToMiles
+Transforms a kilometer distance value to its equivalent in miles,double km,double,ConversionUtils,"convert,kilometers,miles,distance",1,convertKilometersToMiles
+Converts weight from kilograms to pounds,double kg,double,ConversionUtils,"convert,kilograms,pounds,weight",1,convertKgToPounds
+Returns the pound equivalent of the given weight in kilograms,double kg,double,ConversionUtils,"convert,kilograms,pounds,weight",1,convertKgToPounds
+Transforms a weight in kilograms to its equivalent value in pounds,double kg,double,ConversionUtils,"convert,kilograms,pounds,weight",1,convertKgToPounds
+Returns the current battery level as a percentage,,int,DeviceUtils,"battery,level,device",0,getBatteryLevel
+Gets the device battery percentage at the current time,,int,DeviceUtils,"battery,level,device",0,getBatteryLevel
+Retrieves the current battery charge level of the device,,int,DeviceUtils,"battery,level,device",0,getBatteryLevel
+Returns the unique identifier of the device,,String,DeviceUtils,"device,id,unique",0,getDeviceId
+Gets the unique hardware identifier assigned to this device,,String,DeviceUtils,"device,id,unique",0,getDeviceId
+Retrieves the device-specific unique ID string,,String,DeviceUtils,"device,id,unique",0,getDeviceId
+Returns the type of network the device is connected to,,String,DeviceUtils,"network,type,wifi,device",0,getNetworkType
+Gets the current network connection type such as WiFi or mobile,,String,DeviceUtils,"network,type,wifi,device",0,getNetworkType
+Retrieves the active network connection type for the device,,String,DeviceUtils,"network,type,wifi,device",0,getNetworkType
+Sorts a list of integers in ascending order,List items,List,ListUtils,"sort,ascending,list",1,sortListAscending
+Returns the given list of integers sorted from smallest to largest,List items,List,ListUtils,"sort,ascending,list",1,sortListAscending
+Arranges a list of integers in ascending numerical order,List items,List,ListUtils,"sort,ascending,list",1,sortListAscending
+Removes duplicate elements from a list,List items,List,ListUtils,"filter,duplicates,unique",1,filterDuplicates
+Returns a new list with all duplicate values removed,List items,List,ListUtils,"filter,duplicates,unique",1,filterDuplicates
+Eliminates repeated elements from the given list,List items,List,ListUtils,"filter,duplicates,unique",1,filterDuplicates
+Merges two lists into a single combined list,"List first, List second",List,ListUtils,"merge,combine,list",2,mergeLists
+Combines two input lists into one unified list,"List first, List second",List,ListUtils,"merge,combine,list",2,mergeLists
+Returns a single list formed by joining two given lists together,"List first, List second",List,ListUtils,"merge,combine,list",2,mergeLists
